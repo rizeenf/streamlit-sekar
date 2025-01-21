@@ -6,8 +6,9 @@ import pickle
 loaded_model = pickle.load(open('model_uas.pkl', 'rb'))
 
 # Streamlit App
-st.title("Prediksi Besar Premi Asuransi")
-st.title("Nama: RIZKI NURPADILAH | NIM: 2021230056")
+st.title("Nama: Sekar Septi Ardiyati")
+st.title("NIM: 2021230003")
+st.title("Prediksi Premi Asuransi")
 
 # Input Form
 age = st.number_input("Umur (Age)", min_value=0, max_value=120, value=30, step=1)
